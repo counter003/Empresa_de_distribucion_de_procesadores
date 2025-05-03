@@ -1,0 +1,10 @@
+(function(){
+    function isMobileDevice() {
+      return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+    }
+    if(isMobileDevice()){
+      document.body.classList.add('mobile');
+    } else {
+      document.body.classList.add('desktop');
+    }
+  })();

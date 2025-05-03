@@ -1,0 +1,21 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #212529;
+  }
+  
+  .hero-section {
+    position: relative;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+  }
+  
+  .content-section {
+    padding: 2rem 0;
+  }
+  
+  footer {
+    background-color: #343a40;
+    color: white;
+  }
+  
